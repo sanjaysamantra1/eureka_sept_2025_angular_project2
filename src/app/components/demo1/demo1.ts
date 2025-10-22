@@ -13,4 +13,7 @@ export class Demo1 {
   mul(a: number, b: number) {
     return a * b;
   }
+  sumOfDigits(n: number) { // 125 = 8
+
+  }
 }
