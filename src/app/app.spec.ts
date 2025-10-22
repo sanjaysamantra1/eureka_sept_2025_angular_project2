@@ -18,6 +18,6 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, eureka_sept_2025_angular_project2');
+    expect(compiled.querySelector('h1')?.textContent).toContain('This is App Component');
   });
 });
