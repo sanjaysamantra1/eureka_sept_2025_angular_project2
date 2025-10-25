@@ -1,10 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { Demo1 } from './components/demo1/demo1';
+import { MaterialDemo } from './components/material-demo/material-demo';
 
 @Component({
   selector: 'app-root',
   imports: [
-    Demo1
+    Demo1,
+    MaterialDemo
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
