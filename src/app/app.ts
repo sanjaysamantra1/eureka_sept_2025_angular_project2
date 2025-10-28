@@ -3,6 +3,7 @@ import { Demo1 } from './components/demo1/demo1';
 import { MaterialDemo } from './components/material-demo/material-demo';
 import { CounterDemo } from './components/counter-demo/counter-demo';
 import { TodoCrud } from './components/todo-crud/todo-crud';
+import { EmployeeCrud } from './components/employee-crud/employee-crud';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ import { TodoCrud } from './components/todo-crud/todo-crud';
     // Demo1,
     // MaterialDemo
     // CounterDemo
-    TodoCrud
+    // TodoCrud
+    EmployeeCrud
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

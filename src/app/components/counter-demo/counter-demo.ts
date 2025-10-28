@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { increment, reset } from '../../../ngrx/actions/counter.actions';
+import { increment, reset } from '../../ngrx/actions/counter.actions';
 
 @Component({
   selector: 'app-counter-demo',

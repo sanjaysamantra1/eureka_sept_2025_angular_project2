@@ -1,8 +1,7 @@
-import { todoReducer } from './../../../ngrx/reducers/todo.reducer';
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { deleteTodo, toggleTodo } from '../../../ngrx/actions/todo.actions';
+import { deleteTodo, toggleTodo } from '../../ngrx/actions/todo.actions';
 import { CommonModule } from '@angular/common';
 
 @Component({
